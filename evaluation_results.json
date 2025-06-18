@@ -1,0 +1,150 @@
+{
+  "metrics": {
+    "accuracy": 0.9881481481481481,
+    "precision_weighted": 0.9882860757948263,
+    "recall_weighted": 0.9881481481481481,
+    "f1_weighted": 0.9881731188401808,
+    "precision_per_class": [
+      0.9800664451827242,
+      1.0,
+      0.9830508474576272,
+      0.9920318725099602,
+      1.0,
+      0.9898477157360406,
+      0.9498069498069498,
+      0.9966666666666667,
+      0.9920318725099602,
+      0.9966666666666667
+    ],
+    "recall_per_class": [
+      0.9833333333333333,
+      0.99,
+      0.9666666666666667,
+      0.996,
+      0.996,
+      0.975,
+      0.984,
+      0.9966666666666667,
+      0.996,
+      0.9966666666666667
+    ],
+    "f1_per_class": [
+      0.9816971713810315,
+      0.9949748743718593,
+      0.9747899159663865,
+      0.9940119760479043,
+      0.9979959919839679,
+      0.982367758186398,
+      0.9666011787819253,
+      0.9966666666666667,
+      0.9940119760479043,
+      0.9966666666666667
+    ],
+    "support_per_class": [
+      300,
+      300,
+      300,
+      250,
+      250,
+      200,
+      250,
+      300,
+      250,
+      300
+    ],
+    "classification_report": {
+      "AnnualCrop": {
+        "precision": 0.9800664451827242,
+        "recall": 0.9833333333333333,
+        "f1-score": 0.9816971713810315,
+        "support": 300
+      },
+      "Forest": {
+        "precision": 1.0,
+        "recall": 0.99,
+        "f1-score": 0.9949748743718593,
+        "support": 300
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9830508474576272,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9747899159663865,
+        "support": 300
+      },
+      "Highway": {
+        "precision": 0.9920318725099602,
+        "recall": 0.996,
+        "f1-score": 0.9940119760479043,
+        "support": 250
+      },
+      "Industrial": {
+        "precision": 1.0,
+        "recall": 0.996,
+        "f1-score": 0.9979959919839679,
+        "support": 250
+      },
+      "Pasture": {
+        "precision": 0.9898477157360406,
+        "recall": 0.975,
+        "f1-score": 0.982367758186398,
+        "support": 200
+      },
+      "PermanentCrop": {
+        "precision": 0.9498069498069498,
+        "recall": 0.984,
+        "f1-score": 0.9666011787819253,
+        "support": 250
+      },
+      "Residential": {
+        "precision": 0.9966666666666667,
+        "recall": 0.9966666666666667,
+        "f1-score": 0.9966666666666667,
+        "support": 300
+      },
+      "River": {
+        "precision": 0.9920318725099602,
+        "recall": 0.996,
+        "f1-score": 0.9940119760479043,
+        "support": 250
+      },
+      "SeaLake": {
+        "precision": 0.9966666666666667,
+        "recall": 0.9966666666666667,
+        "f1-score": 0.9966666666666667,
+        "support": 300
+      },
+      "accuracy": 0.9881481481481481,
+      "macro avg": {
+        "precision": 0.9880169036536595,
+        "recall": 0.9880333333333333,
+        "f1-score": 0.987978417610071,
+        "support": 2700
+      },
+      "weighted avg": {
+        "precision": 0.9882860757948263,
+        "recall": 0.9881481481481481,
+        "f1-score": 0.9881731188401808,
+        "support": 2700
+      }
+    }
+  },
+  "config": {
+    "model_name": "microsoft/swin-base-patch4-window7-224",
+    "num_labels": 10,
+    "batch_size": 32,
+    "learning_rate": 5e-05,
+    "num_epochs": 10
+  },
+  "label_names": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ]
+}

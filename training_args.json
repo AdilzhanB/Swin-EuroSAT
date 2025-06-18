@@ -1,0 +1,8 @@
+{
+  "learning_rate": 5e-05,
+  "num_epochs": 10,
+  "batch_size": 32,
+  "warmup_steps": 500,
+  "weight_decay": 0.01,
+  "model_name": "microsoft/swin-base-patch4-window7-224"
+}

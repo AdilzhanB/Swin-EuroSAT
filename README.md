@@ -539,7 +539,7 @@ We welcome contributions to improve this project! Here's how you can help:
 
 ### 👤 Maintainer
 
-**Adilzhan Baimenov** ([@AdilzhanB](https://github.com/AdilzhanB))
+**Adilzhan Baidalin** ([@AdilzhanB](https://github.com/AdilzhanB))
 - GitHub: [@AdilzhanB](https://github.com/AdilzhanB)
 - HuggingFace: [Adilbai](https://huggingface.co/Adilbai)
 
@@ -575,13 +575,7 @@ Special thanks to:
 
 ---
 
-<div align="center">
-
-### ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=AdilzhanB/Swin-EuroSAT&type=Date)](https://star-history.com/#AdilzhanB/Swin-EuroSAT&Date)
-
----
+<div align="center">=
 
 **🚀 Ready to classify satellite images? [Get started now](#-quick-start)!**
 
